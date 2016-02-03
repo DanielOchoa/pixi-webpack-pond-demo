@@ -1,4 +1,4 @@
-# Pond Demo
+# Pond Demo - WIP
 
 Made in Pixi.js. Uses webpack to load everything. Thanks to
 [mjapcks](https://gist.github.com/mjackson/ecd3914ebee934f4daf4) for the
