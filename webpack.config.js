@@ -6,10 +6,10 @@ var path = require('path');
 module.exports = {
   context: __dirname,
   devtool: debug ? 'inline-sourcemap' : null,
-  entry: debug ? [
+  entry: [
     'webpack-dev-server/client?http://localhost:8080',
     './js/index.js'
-  ] : ['./js/index.js'],
+  ],
   output: {
     path: __dirname + '/dist',
     filename: 'bundle.min.js'
