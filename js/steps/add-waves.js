@@ -14,4 +14,6 @@ export default function addWaves({viewWidth, viewHeight, stage}) {
   // configure filter
   // what if we have more filters?
   stage.filters = [displacementFilter];
+
+  return {waves: wavesTilingSprite, filter: displacementFilter};
 }
